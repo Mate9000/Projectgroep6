@@ -111,12 +111,22 @@ a {
   margin-right: 30px;
 }
 .duo-box-body{
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
-  height: 200px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 0px;
+  height: auto;
+  justify-content: space-between;
 }
-
+.duo-box-body h1{
+  font-size: 20px;
+  margin-top: 20px;
+  position: absolute;
+}
+.duo-box-body h2{
+  font-size: 20px;
+  margin-top: 20px;
+  position: absolute;
+}
 .box-blue {
   border-top-left-radius: 25px;
   width: 100px;
@@ -129,5 +139,19 @@ a {
   width: 100px;
   height: 100px;
   background-color: #800080;
-  margin-top: 50px;
+}
+.box-empty{
+  border-bottom-right-radius: 25px;
+  width: 100px;
+  height: 50px;
+}
+.p-text-right{
+display: flex;
+flex-direction: row;
+justify-content: right;
+position: absolute;
+}
+.p-text-right p{
+  margin-top: -200px;
+  margin-right: -1000px;
 }
