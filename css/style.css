@@ -110,17 +110,24 @@ a {
 .header .spacer {
   margin-right: 30px;
 }
-
+.duo-box-body{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  height: 200px;
+}
 
 .box-blue {
   border-top-left-radius: 25px;
   width: 100px;
-  height: 50px;
+  height: 100px;
   background-color: #77E6FF;
+  position: top;
 }
 .box-purple {
   border-bottom-right-radius: 25px;
   width: 100px;
-  height: 50px;
+  height: 100px;
   background-color: #800080;
+  margin-top: 50px;
 }
