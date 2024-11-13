@@ -2,6 +2,29 @@ body {
   background-color: #eaeaea;
   margin: 0px;
 }
+
+
+
+a button:hover {
+  transform: scale(1.05); /* Maak de knop een beetje groter */
+}
+
+
+a button:active {
+  transform: scale(1.1); /* Vergroot de knop met 10% */
+  
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+a {
+  text-decoration: none; 
+}
+
+
 .container-menu li {
   margin: 0;
   height: inherit;
@@ -22,55 +45,61 @@ p {
   font-size: inherit;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+a {
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
 h1 {
   margin: 0;
-  /* Verwijdert standaard marges */
+  
   padding: 0;
-  /* Verwijdert standaard padding */
+  
   font-size: inherit;
-  /* Neemt de lettergrootte van het bovenliggende element over */
+ 
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 button {
   margin: 0;
-  /* Geen marge */
+  
   padding: 0;
-  /* Geen padding */
+ 
   font-size: inherit;
-  /* Neemt de font-size van het bovenliggende element over */
+  
   border-radius: 10px;
-  /* Behoud iets dat je wilt border-radius */
+  
   border: none;
-  /* Geen rand */
+  
   background: transparent;
-  /* Transparante achtergrond */
+  
   cursor: pointer;
-  /* Cursor verandert naar pointer */
+  
   box-shadow: none;
-  /* Geen schaduw */
+ 
 
 }
 
 h2 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  /* Verwijdert standaard marges */
+  
   padding: 0;
-  /* Verwijdert standaard padding */
+ 
   font-size: inherit;
-  /* Neemt de lettergrootte van het bovenliggende element over */
+  
 }
 
 h3 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  /* Verwijdert standaard marges */
+  
   padding: 0;
-  /* Verwijdert standaard padding */
+ 
   font-size: inherit;
-  /* Neemt de lettergrootte van het bovenliggende element over */
+  
 }
 
 a {
@@ -124,3 +153,217 @@ a {
   height: 50px;
   background-color: #800080;
 }
+.background{
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  margin-top: -300px;
+
+}
+.container-tags{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: center;
+  margin-top: 50px;
+}
+.text1{
+  border-radius: 50px;
+  border: 4px solid #B2B2B2;
+  padding: 10px;
+  width: 270px;
+  background-color:black ;
+  box-shadow: #F1E457 ;
+  color:#129989;
+  font-size: 42px
+  
+}
+.text2{
+  border-radius: 50px;
+  border: 4px solid #B2B2B2;
+  padding: 10px;
+  width: 270px;
+  background-color:black ;
+  color:#B93CB7;
+  font-size: 42px
+  
+}
+.text3{
+  border-radius: 50px;
+  border: 4px solid #B2B2B2;
+  padding: 10px;
+  width: 270px;
+  background-color:black ;
+  color:#FFC24C;
+  font-size: 42px
+}
+.text4{
+  border-radius: 50px;
+  border: 4px solid #B2B2B2;
+  padding: 10px;
+  width: 270px;
+  background-color:black ;
+  color:#FF9E9E;
+  font-size: 42px
+}
+.text5{
+  border-radius: 50px;
+  border: 4px solid #B2B2B2;
+  padding: 10px;
+  width: 270px;
+  background-color:black ;
+  color:#FE5B29;
+  font-size: 42px
+}
+.text6{
+  border-radius: 50px;
+  border: 4px solid #B2B2B2;
+  padding: 10px;
+  width: 270px;
+  background-color:black ;
+  color:#9AE196;
+  font-size: 37px
+}
+.text7{
+  border-radius: 50px;
+  border: 4px solid #B2B2B2;
+  padding: 10px;
+  width: 270px;
+  background-color:black ;
+  color:#F1E457;
+  font-size: 42px
+}
+.container-tags2{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: center;
+  margin-top: 50px;}
+
+  .container-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .img{
+    margin-top: 100px;
+    width: 95%;
+    height: fit-content;
+  }
+  .w3schools{
+    width: 45%;
+    position: absolute;
+   margin-top: -60px;
+   margin-left: 30%;
+   
+  }
+  .container-vakken{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+  }
+  .title-1{
+    font-size: 50pt;
+
+  }
+  .nederlands{
+    font-size: 40pt;
+
+  }
+  .uitleg-nl{
+    font-size: 20pt;
+    
+  }
+  .uitleg-nl2{
+    font-size: 20pt;
+    
+  }
+  .uitleg-nl3{
+    font-size: 20pt;
+    
+  }
+  .title-2{
+    font-size: 40pt;
+
+  }
+  .uitleg-rl{
+    font-size: 20pt;
+    
+  }
+  .uitleg-rl2{
+    font-size: 20pt;
+    
+  }
+  .uitleg-rl3{
+    font-size: 20pt;
+    
+  }
+  
+  .title-3{
+    font-size: 40pt;
+
+  }
+  .uitleg-el{
+    font-size: 20pt;
+    
+  }
+  .uitleg-el2{
+    font-size: 20pt;
+    
+  }
+  .uitleg-el3{
+    font-size: 20pt;
+    
+  }
+  .title-4{
+    font-size: 40pt;
+
+  }
+  .uitleg-bl{
+    font-size: 20pt;
+    
+  }
+  .uitleg-bl2{
+    font-size: 20pt;
+    
+  }
+  .uitleg-bl3{
+    font-size: 20pt;
+    
+  }
+  .title-5{
+    font-size: 40pt;
+
+  }
+  .uitleg-bcl{
+    font-size: 20pt;
+    
+  }
+  .uitleg-bcl2{
+    font-size: 20pt;
+  }
+  .title-6{
+    font-size: 40pt;
+
+  }
+  .uitleg-webl{
+    font-size: 20pt;
+    
+  }
+  .uitleg-webl2{
+    font-size: 20pt;
+  }
+  .title-7{
+    font-size: 40pt;
+
+  }
+  .uitleg-bil{
+    font-size: 20pt;
+    
+  }
+  .uitleg-bil2{
+    font-size: 20pt;
+  }
+  
+  
