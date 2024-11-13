@@ -2,33 +2,42 @@ body{
   background-color: #eaeaea;
 }
 a{
-  list-style: georgian;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .body-of-header {
   margin: 0;
   font-family: Arial, sans-serif;
 }
-.navbar {
+.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px 20px;
   background-color: white;
 }
-.navbar img {
+.header img {
   height: 50px;
 }
-.navbar .nav-links {
+.header .nav-links {
   display: flex;
   justify-content: center;
   flex-grow: 1;
 }
-.navbar a {
+.header a {
   text-decoration: none;
   color: black;
   margin: 0 15px;
   font-size: 16px;
 }
-.navbar .spacer {
+.header .spacer {
   margin-right: 30px; 
+}
+.box{
+  border-top-left-radius: 25px;
+}
+.box :first-child{
+  background-color: #77E6FF;
+}
+.box :last-child{
+  background-color: #800080;
 }
