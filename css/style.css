@@ -1,13 +1,87 @@
-body{
+body {
   background-color: #eaeaea;
+  margin: 0px;
 }
-a{
+.container-menu li {
+  margin: 0;
+  height: inherit;
+  width: 0;
+}
+.container-menu ul {
+  margin: 0;
+}
+.container-menu{
+  list-style: none;    
+  padding: 0;              
+  margin: 0;            
+  
+}
+p {
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+h1 {
+  margin: 0;
+  /* Verwijdert standaard marges */
+  padding: 0;
+  /* Verwijdert standaard padding */
+  font-size: inherit;
+  /* Neemt de lettergrootte van het bovenliggende element over */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+button {
+  margin: 0;
+  /* Geen marge */
+  padding: 0;
+  /* Geen padding */
+  font-size: inherit;
+  /* Neemt de font-size van het bovenliggende element over */
+  border-radius: 10px;
+  /* Behoud iets dat je wilt border-radius */
+  border: none;
+  /* Geen rand */
+  background: transparent;
+  /* Transparante achtergrond */
+  cursor: pointer;
+  /* Cursor verandert naar pointer */
+  box-shadow: none;
+  /* Geen schaduw */
+
+}
+
+h2 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  /* Verwijdert standaard marges */
+  padding: 0;
+  /* Verwijdert standaard padding */
+  font-size: inherit;
+  /* Neemt de lettergrootte van het bovenliggende element over */
+}
+
+h3 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  /* Verwijdert standaard marges */
+  padding: 0;
+  /* Verwijdert standaard padding */
+  font-size: inherit;
+  /* Neemt de lettergrootte van het bovenliggende element over */
+}
+
+a {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .body-of-header {
   margin: 0;
   font-family: Arial, sans-serif;
 }
+
 .header {
   display: flex;
   align-items: center;
@@ -15,29 +89,38 @@ a{
   padding: 10px 20px;
   background-color: white;
 }
+
 .header img {
   height: 50px;
 }
+
 .header .nav-links {
   display: flex;
   justify-content: center;
   flex-grow: 1;
 }
+
 .header a {
   text-decoration: none;
   color: black;
   margin: 0 15px;
   font-size: 16px;
 }
+
 .header .spacer {
-  margin-right: 30px; 
+  margin-right: 30px;
 }
-.box{
+
+
+.box-blue {
   border-top-left-radius: 25px;
-}
-.box :first-child{
+  width: 100px;
+  height: 50px;
   background-color: #77E6FF;
 }
-.box :last-child{
+.box-purple {
+  border-bottom-right-radius: 25px;
+  width: 100px;
+  height: 50px;
   background-color: #800080;
 }
