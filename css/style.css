@@ -9,6 +9,7 @@ body {
   width: 0;
 }
 
+
 .container-menu ul {
   margin: 0;
 }
@@ -24,6 +25,7 @@ a {
   color: white;
   text-decoration: none;
 }
+
 
 p {
   margin: 0;
@@ -120,6 +122,7 @@ a {
   margin-right: 30px;
 }
 
+
 .duo-box-body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -143,6 +146,7 @@ a {
 .box-blue {
   border-top-left-radius: 25px;
   width: 100px;
+
   height: 100px;
   background-color: #77E6FF;
   position: top;
@@ -429,4 +433,5 @@ a {
 
 .youtube {
   color: #ff6347;
+
 }
