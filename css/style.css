@@ -173,6 +173,140 @@ a {
   margin-right: -1000px;
 }
 
+.body-of-home {
+  font-family: Arial, sans-serif;
+  background-color: #EAEAEA;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.header-of-home {
+  margin-top: 20px;
+}
+
+.header-of-home h1 {
+  font-size: 7em;
+  color: #555;
+  margin-left: 500px;
+}
+
+.header-of-home h2 {
+  font-size: 6em;
+  color: #000;
+  margin: 0;
+  margin-left: 500px;
+}
+
+.header-of-home h3 {
+  font-size: 1em;
+  color: #888;
+  margin: 0;
+  margin-left: 500px;
+}
+
+.body-of-tekst {
+  width: auto;
+  height: auto;
+}
+
+.info-boxes {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 260px;
+}
+
+.info-box-blue {
+  background-color: #00cfff;
+  color: white;
+  padding: 10px;
+  margin: 0;
+  border-top-left-radius: 15px;
+  width: 150px;
+  height: 150px;
+}
+
+.info-box-purple {
+  background-color: purple;
+  color: white;
+  padding: 10px;
+  margin: 0;
+  border-bottom-right-radius: 15px;
+  width: 150px;
+  margin-left: 170px;
+  height: 150px;
+}
+
+.info-box-purple p {
+  margin: 5px 0;
+  font-size: 2em;
+}
+
+.info-box-blue p {
+  margin: 5px 0;
+  font-size: 2em;
+}
+
+.image-container {
+  margin: 20px auto;
+  width: 80%;
+}
+
+.image-container img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.stages {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10%;
+}
+
+.stages p {
+  font-size: 2em;
+}
+
+.stage {
+  margin: 0 20px;
+}
+
+.empty-space {
+  width: 100%;
+  height: 120px;
+}
+
+.content-of-tekst {
+  text-align: center;
+  color: #333;
+  background-color: #EAEAEA;
+}
+
+.content-of-tekst h3 {
+  font-size: 3em;
+  margin: 0px;
+}
+
+.content-of-tekst p {
+  font-size: 2em;
+  margin: 0;
+}
+
+.content-of-tekst ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+
+.content-of-tekst ol li {
+  margin: 10px 0;
+}
+
 .body-of-sport {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -228,7 +362,8 @@ a {
   color: #ffffff;
   font-size: 20px;
 }
-.footer .purple-section a{
+
+.footer .purple-section a {
   margin-right: auto;
 }
 
@@ -245,6 +380,7 @@ a {
 .content h1 {
   font-size: 3em;
 }
+
 .body-of-footer {
   background-color: #9c27b0;
   display: flex;
@@ -260,11 +396,13 @@ a {
   color: white;
   font-family: Arial, sans-serif;
 }
+
 .icon-container {
   display: flex;
   gap: 20px;
   margin: 0px;
 }
+
 .icon-button {
   width: 40px;
   height: 40px;
@@ -275,16 +413,20 @@ a {
   border: none;
   cursor: pointer;
 }
+
 .icon-button img {
   width: 40px;
   height: 40px;
 }
+
 .twitter {
   color: #00acee;
 }
+
 .telegram {
   color: #0088cc;
 }
+
 .youtube {
   color: #ff6347;
 }
